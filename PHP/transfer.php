@@ -51,7 +51,7 @@ else  if($amount > $sql1['CurrentBalance']) //checing if the amount entered to s
 
       if($sql3){
               echo "<script> alert('Transaction Successful');
-             window.location='Transactionhistory.php';
+             window.location='viewcustomer.php';
              </script>";
 
       }
