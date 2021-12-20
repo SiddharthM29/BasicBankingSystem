@@ -1,0 +1,47 @@
+section{
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+ header{
+     background-color:cadetblue;
+     padding: 5px;
+     text-align: center;
+     color:white;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ table  th tr td {
+    text-align: center;
+}
+
+table{
+    width: 70%;
+    height: 60%;
+    border:steelblue;
+    border-width: 3px;
+}
+th{
+    background-color:steelblue;
+    color: white;
+}
+tr{
+    background-color: floralwhite;
+}
+ #back{
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 15px;
+    width: 4%;
+    background-color:darkmagenta;
+}
+
+.transfer{
+    background-color: cadetblue;
+    padding: 5px;
+    width: auto;
+}
+.text{
+    color: white;
+    text-decoration: none;
+}
