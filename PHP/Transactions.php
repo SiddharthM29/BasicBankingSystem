@@ -187,7 +187,7 @@ tr{
     padding: 8px;
     font-size: 15px;
     width: 4%;
-    background-color:darkmagenta;"><a style="color:white;text-Decoration:none;"href="viewcustomer.php">Back</a> </button>
+    background-color:darkmagenta;"><a style="color:white;text-Decoration:none;"href="index.php">Back</a> </button>
 </body>
 </html>
 
