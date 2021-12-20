@@ -49,7 +49,7 @@ $count=0;
             ?>
             </table>
         </section>  <br> <br>
-            <button id="back"> <a class="text"href="inex.php">Back </a> </button>
+            <button id="back"> <a class="text"href="index.php">Back </a> </button>
              
   </body>
   </html>
