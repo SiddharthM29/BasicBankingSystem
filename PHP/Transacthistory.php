@@ -1,16 +1,6 @@
 <?php
- $server="localhost";
- $username="root";
- $password="sidhu@2904";
- $con= mysqli_connect($server,$username,$password,"tsf_bank");
- if(!$con)
- {
-     die("connection to server failed due to".mysqli_connect_error());
- }
- else{
-     echo "connected successfully";
- }
-
+ include 'connect.php'
+ 
 $sql= "SELECT * FROM transaction";
 $result= mysqli_query($con , $sql);
 ?>
@@ -57,7 +47,7 @@ $result= mysqli_query($con , $sql);
             ?>
             </table>
         </section>  <br> <br>
-            <button id="back"> <a class="text"href="inex.php">Back </a> </button>
+            <button id="back"> <a class="text"href="index.php">Back </a> </button>
   </body>
   </html>
 
