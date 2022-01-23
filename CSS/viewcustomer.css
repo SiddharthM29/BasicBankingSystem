@@ -45,3 +45,15 @@ tr{
     color: white;
     text-decoration: none;
 }
+
+@media (Max-width:992px){
+    header{
+        width: 120%;
+    }
+    #back{
+            width: 60px;
+    }
+    section{
+        margin-left:10%;
+    }
+}
