@@ -66,3 +66,27 @@ button a{
     text-decoration: none;
     color:white;
 }
+@media (max-width: 992px){
+    
+    .btn{
+        width :35%;
+        padding:5px;
+        margin-top:10%;
+        margin-left:10px;
+        border-width:2px;
+        background-color:black;
+        font-size: 15px;
+    }
+    button a{
+        color:white;
+    }
+    
+    .foot{
+        padding:45px;
+        text-align:left;
+         padding-left:0;
+    }
+    
+}
+
+
